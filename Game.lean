@@ -1,20 +1,28 @@
-import Game.Levels.DemoWorld
+import Game.Levels.Divisibility
 
 -- Here's what we'll put on the title screen
-Title "Hello World Game"
+Title "Prototype for a Heidelberg Lean Game"
 Introduction
 "
-This text appears on the starting page where one selects the world/level to play.
-You can use **markdown**.
+Welcome to the Prototype for a Heidelberg Lean Game!
+
+In this game, you will explore a single world with 6 levels.
+The final level (Level 6) proves that every prime number is irreducible.
+This prototype is designed to demonstrate the structure and flow of a Lean game.
 "
 
 Info "
-Here you can put additional information about the game. It is accessible
-from the starting through the drop-down menu.
+This game was created as part of the HEGL (Heidelberg Experimental Geometry Lab) Illustrating Mathematics Seminar 2024/2025 at the University of Heidelberg. For more details, visit the [Seminar page](https://matematiflo.github.io/HEGL_IMS_WiSe_2024/).
 
-For example: Game version, Credits, Link to Github and Zulip, etc.
-
-Use **markdown**.
+Credits:
+- Adriano Messina
+- Alina Stock
+- Hanna Rothe
+- Heide Frank
+- Johannes Kadel
+- Jonas Schäfer
+- Katrin Weiß
+- Vincent Voß
 "
 
 /-! Information to be displayed on the servers landing page. -/
