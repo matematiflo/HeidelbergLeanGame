@@ -1,7 +1,7 @@
 import Game.Metadata
 import Game.Inventory
 
-World "Divisibility"
+World "PrimeImpliesIrreducible"
 Level 6
 
 Title "Prime Implies Irreducible"

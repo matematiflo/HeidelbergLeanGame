@@ -1,17 +1,17 @@
-import Game.Levels.Divisibility.LV01_PrimeIrred
-import Game.Levels.Divisibility.LV02_EqImplDiv
-import Game.Levels.Divisibility.LV03_Substitution
-import Game.Levels.Divisibility.LV04_BUnit
-import Game.Levels.Divisibility.LV05_AUnit
-import Game.Levels.Divisibility.LV06_FinalBoss
+import Game.Levels.PrimeImpliesIrreducible.LV01_CancellationInNat
+import Game.Levels.PrimeImpliesIrreducible.LV02_EqImplDiv
+import Game.Levels.PrimeImpliesIrreducible.LV03_Substitution
+import Game.Levels.PrimeImpliesIrreducible.LV04_BUnit
+import Game.Levels.PrimeImpliesIrreducible.LV05_AUnit
+import Game.Levels.PrimeImpliesIrreducible.LV06_FinalBoss
 
 
-World "Divisibility"
-Title "Divisibility"
+World "PrimeImpliesIrreducible"
+Title "PrimeImpliesIrreducible"
 
 Introduction
 "
-Welcome to the Divisibility World.
+Welcome to the PrimeImpliesIrreducible World.
 
 In this world, you will work through a series of levels that explore basic properties of divisibility in the natural numbers. Each level builds on the previous one:
 - Level 1 introduces the cancellation law.

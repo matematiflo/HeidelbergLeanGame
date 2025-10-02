@@ -1,4 +1,4 @@
-import Game.Levels.Divisibility
+import Game.Levels.PrimeImpliesIrreducible
 
 -- Here's what we'll put on the title screen
 Title "Prototype for a Heidelberg Lean Game"

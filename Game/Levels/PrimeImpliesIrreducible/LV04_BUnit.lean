@@ -1,7 +1,7 @@
 import Game.Metadata
 import Game.Inventory
 
-World "Divisibility"
+World "PrimeImpliesIrreducible"
 Level 4
 
 Title "Proving b is a Unit"
