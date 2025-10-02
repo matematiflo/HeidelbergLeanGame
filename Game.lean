@@ -1,28 +1,37 @@
 import Game.Levels.PrimeImpliesIrreducible
 
 -- Here's what we'll put on the title screen
-Title "Prototype for a Heidelberg Lean Game"
+Title "Heidelberg Lean Game"
 Introduction
 "
-Welcome to the Prototype for a Heidelberg Lean Game!
+Welcome to the Heidelberg Lean Game!
 
-In this game, you will explore a single world with 6 levels.
-The final level (Level 6) proves that every prime number is irreducible.
-This prototype is designed to demonstrate the structure and flow of a Lean game.
+In this game, we explore a single world with 6 levels.
+The final level (Level 6) proves that every natural number which is prime is irreducible.
+
+More worlds will follow, so stay tuned!
 "
 
 Info "
-This game was created as part of the HEGL (Heidelberg Experimental Geometry Lab) Illustrating Mathematics Seminar 2024/2025 at the University of Heidelberg. For more details, visit the [Seminar page](https://matematiflo.github.io/HEGL_IMS_WiSe_2024/).
+A prototype for this game was created as part of the HEGL (Heidelberg Experimental Geometry Lab) Illustrating Mathematics Seminar 2024/2025 at the University of Heidelberg. For more details, visit the [Seminar page](https://matematiflo.github.io/HEGL_IMS_WiSe_2024/).
 
 Credits:
-- Adriano Messina
-- Alina Stock
-- Hanna Rothe
+
 - Heide Frank
 - Johannes Kadel
+- Adriano Messina
+- Hanna Rothe
+- Alina Stock
 - Jonas Schäfer
-- Katrin Weiß
 - Vincent Voß
+- Katrin Weiß
+
+The current version is being developed and maintained by:
+
+- Heide Frank
+- Levi Klein
+- Kevin Klinge
+- Florent Schaffhauser
 "
 
 /-! Information to be displayed on the servers landing page. -/
