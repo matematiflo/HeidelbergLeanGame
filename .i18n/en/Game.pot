@@ -26,6 +26,28 @@ msgstr ""
 msgid ""
 msgstr ""
 
+#: Game
+msgid "A prototype for this game was created as part of the HEGL (Heidelberg Experimental Geometry Lab) Illustrating Mathematics Seminar 2024/2025 at the University of Heidelberg. For more details, visit the [Seminar page](https://matematiflo.github.io/HEGL_IMS_WiSe_2024/).\n"
+"\n"
+"Credits:\n"
+"\n"
+"- Heide Frank\n"
+"- Johannes Kadel\n"
+"- Adriano Messina\n"
+"- Hanna Rothe\n"
+"- Alina Stock\n"
+"- Jonas Schäfer\n"
+"- Vincent Voß\n"
+"- Katrin Weiß\n"
+"\n"
+"The current version is being developed and maintained by:\n"
+"\n"
+"- Heide Frank\n"
+"- Levi Klein\n"
+"- Kevin Klinge\n"
+"- Florent Schaffhauser"
+msgstr ""
+
 #: GameServer.RpcHandlers
 msgid "intermediate goal solved! 🎉"
 msgstr ""
@@ -212,14 +234,6 @@ msgstr ""
 msgid "Unfold the definition with 'dsimp only [unit]'."
 msgstr ""
 
-#: Game
-msgid "Welcome to the Prototype for a Heidelberg Lean Game!\n"
-"\n"
-"In this game, you will explore a single world with 6 levels.\n"
-"The final level (Level 6) proves that every prime number is irreducible.\n"
-"This prototype is designed to demonstrate the structure and flow of a Lean game."
-msgstr ""
-
 #: Game.Levels.PrimeImpliesIrreducible.LV01_CancellationInNat
 msgid "Well done! You have successfully proven that cancellation holds in ℕ."
 msgstr ""
@@ -304,7 +318,7 @@ msgid "Use the substitution property with: 'have p_eq_pcb : p = p * («{c}» * b
 msgstr ""
 
 #: Game
-msgid "Prototype for a Heidelberg Lean Game"
+msgid "Heidelberg Lean Game"
 msgstr ""
 
 #: Game.Levels.PrimeImpliesIrreducible.LV02_EqImplDiv
@@ -499,20 +513,6 @@ msgstr ""
 msgid "Simplify the definition of divisibility. (Recall that p ∣ (u * v) means there exists a natural number k such that p * k = u * v.)"
 msgstr ""
 
-#: Game
-msgid "This game was created as part of the HEGL (Heidelberg Experimental Geometry Lab) Illustrating Mathematics Seminar 2024/2025 at the University of Heidelberg. For more details, visit the [Seminar page](https://matematiflo.github.io/HEGL_IMS_WiSe_2024/).\n"
-"\n"
-"Credits:\n"
-"- Adriano Messina\n"
-"- Alina Stock\n"
-"- Hanna Rothe\n"
-"- Heide Frank\n"
-"- Johannes Kadel\n"
-"- Jonas Schäfer\n"
-"- Katrin Weiß\n"
-"- Vincent Voß"
-msgstr ""
-
 #: Game.Inventory
 msgid "This theorem, proved in Level 4, shows that under the conditions\n"
 "  p is prime,\n"
@@ -549,6 +549,15 @@ msgstr ""
 
 #: Game.Levels.PrimeImpliesIrreducible.LV05_AUnit
 msgid "Use 'exact cancellation_in_Nat («{c}» * a) 1 p ⟨Eq.symm «{p_eq_pca}», «{p_prime}».not_zero⟩' to finish this part of the proof."
+msgstr ""
+
+#: Game
+msgid "Welcome to the Heidelberg Lean Game!\n"
+"\n"
+"In this game, we explore a single world with 6 levels.\n"
+"The final level (Level 6) proves that every natural number which is prime is irreducible.\n"
+"\n"
+"More worlds will follow, so stay tuned!"
 msgstr ""
 
 #: Game.Levels.PrimeImpliesIrreducible.LV05_AUnit
