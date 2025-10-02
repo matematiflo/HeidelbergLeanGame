@@ -1,6 +1,6 @@
-# Game Skeleton
+# Heidelberg Lean Game
 
-This is a repo for the Heidelberg Lean Game, to be used on the [Lean Game Server](https://adam.math.hhu.de).
+This is a repo for the [Heidelberg Lean Game](https://adam.math.hhu.de/#/g/matematiflo/heidelbergleangame), to be used on the [Lean Game Server](https://adam.math.hhu.de).
 
 The official instructions to build such a repo are available at the [lean4game](https://github.com/leanprover-community/lean4game/) repository:
 
