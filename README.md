@@ -11,15 +11,14 @@ The official instructions to build such a repo are available at the [lean4game](
 ## Quick start to using this repo locally
 
 - Make sure you have [Lean](https://lean-lang.org) and [node.js](https://nodejs.org/en) installed on your machine.
-- Clone this repo and run the following commands:
+- Clone this repo, go to the folder where you cloned it, and and run the following commands:
 
   - `lake update -R`
   - `lake build`
 
-- Make sure you have also cloned the [lean4game](https://github.com/leanprover-community/lean4game/) repo (in the same parent folder as `HeidelbergLeanGame`).
-- Run the following commands:
+- Make sure you have also cloned the [lean4game](https://github.com/leanprover-community/lean4game/) repo (in the *same parent folder* as `HeidelbergLeanGame`).
+- Go to the `lean4game` folder and run the following commands:
 
-  - `cd ../lean4game`
   - `npm install`
   - `npm start`
 
