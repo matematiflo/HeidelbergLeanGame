@@ -46,6 +46,12 @@ Click on this to check out the build report:
 
 ### Trigger the import and check out the link
 
-Open the *What's next?* part of the report. You see two links with your (actual) user name in it. The first link triggers the import of the game to the Lean Game Server (it takes a few minutes and shows a brief activity log). The second link takes you to the published version.
+Open the *What's next?* part of the report.
 
 ![Screenshot showing where to click to publish the game on the Lean Game server](img/PublishScreenshot%20-%203.png)
+
+You see two links with your (actual) user name in it.
+
+![Screenshot showing where to click to publish the game on the Lean Game server](img/PublishScreenshot%20-%204.png)
+
+The first link triggers the import of the game to the Lean Game Server (it takes a few minutes and shows a brief activity log). The second link takes you to the published version.
