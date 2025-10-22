@@ -34,7 +34,7 @@ The steps are the following:
 
 ### GitHub action
 
-In the GitHub repo, go to the GitHub Actions tab and make sure that the *build the game and save artifact* action has run properly (you must push to the main branch for that).
+In the GitHub repo, go to the GitHub Actions tab and make sure that the *build the game and save artifact* action has run properly (you must push/merge to the main branch for that).
 
 ![Screenshot of *build the game and save artifact* action](img/PublishScreenshot%20-%201.png)
 
@@ -46,6 +46,6 @@ Click on this to check out the build report:
 
 ### Trigger the import and check out the link
 
-Open the *What's next?* part of the report. You see two links. The first link triggers the import of the game to the Lean Game Server (it takes a few minutes and shows a brief activity log). The second link takes you to the published version.
+Open the *What's next?* part of the report. You see two links with your (actual) user name in it. The first link triggers the import of the game to the Lean Game Server (it takes a few minutes and shows a brief activity log). The second link takes you to the published version.
 
 ![Screenshot showing where to click to publish the game on the Lean Game server](img/PublishScreenshot%20-%203.png)
