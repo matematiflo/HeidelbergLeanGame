@@ -10,7 +10,7 @@ The official instructions to build such a repo are available at the [lean4game](
 
 ## Quick start to using this repo locally
 
-- Make sure you have [Lean](https://lean-lang.org) and [node.js](https://nodejs.org/en) installed on your machine.
+- Make sure you have [Lean](https://lean-lang.org) and [node.js](https://nodejs.org/en/download) installed on your machine.
 - Clone this repo, go to the folder where you cloned it, and and run the following commands:
 
   - `lake update -R`
