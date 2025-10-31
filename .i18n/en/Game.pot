@@ -1,7 +1,7 @@
 msgid ""
 msgstr "Project-Id-Version: Game v4.22.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-10-02\n"
+"POT-Creation-Date: 2025-10-31\n"
 "Last-Translator: \n"
 "Language-Team: none\n"
 "Language: en\n"
@@ -74,6 +74,10 @@ msgstr ""
 
 #: Game.Levels.PrimeImpliesIrreducible.LV01_CancellationInNat
 msgid "Now you can use Nat.mul_left_cancel to finish the proof. You can do this with the exact tactic."
+msgstr ""
+
+#: Game.Levels.LogicWorld.LV01
+msgid "Well done! You have successfully proven that conjunction of `P ∧ Q` is logically equivalent to `Q ∧ P`."
 msgstr ""
 
 #: Game.Levels.PrimeImpliesIrreducible.LV04_BUnit
@@ -179,6 +183,10 @@ msgstr ""
 msgid "Next, we prove 1 = «{c}» * b using a 'have' block. Remember that when using 'by', the subsequent proof must be indented."
 msgstr ""
 
+#: Game.Levels.LogicWorld
+msgid "Logic World"
+msgstr ""
+
 #: Game.Levels.PrimeImpliesIrreducible.LV04_BUnit
 msgid "Use 'apply Eq.symm' to reverse the equality."
 msgstr ""
@@ -227,6 +235,14 @@ msgstr ""
 
 #: Game.Levels.PrimeImpliesIrreducible.LV03_Substitution
 msgid "Substitution in ℕ"
+msgstr ""
+
+#: Game.Levels.LogicWorld
+msgid "Welcome to the Logic World.\n"
+"\n"
+"A tautology is a proposition with type parameters that has a proof regardless of whether its parameters have a proof. For instance, the proposition `P → P` is a tautology, because the identity function `fun p => p` is a proof of `P → P`.\n"
+"\n"
+"In this world, we prove a few tautologies."
 msgstr ""
 
 #: Game.Levels.PrimeImpliesIrreducible.LV04_BUnit
@@ -365,6 +381,10 @@ msgstr ""
 
 #: Game.Levels.PrimeImpliesIrreducible.LV03_Substitution
 msgid "Finish with 'exact «{p_eq_uv}»' to complete the proof."
+msgstr ""
+
+#: Game.Levels.LogicWorld.LV01
+msgid "In this first level, you are asked to prove that the propositions `P ∧ Q` and `Q and P` are logically equivalent."
 msgstr ""
 
 #: Game.Levels.PrimeImpliesIrreducible.LV06_FinalBoss
@@ -513,6 +533,10 @@ msgstr ""
 msgid "Simplify the definition of divisibility. (Recall that p ∣ (u * v) means there exists a natural number k such that p * k = u * v.)"
 msgstr ""
 
+#: Game.Levels.LogicWorld.LV01
+msgid "Use the 'constructor' tactic to split this equivalence into two implications."
+msgstr ""
+
 #: Game.Inventory
 msgid "This theorem, proved in Level 4, shows that under the conditions\n"
 "  p is prime,\n"
@@ -523,6 +547,14 @@ msgstr ""
 
 #: Game.Levels.PrimeImpliesIrreducible.LV05_AUnit
 msgid "Now, we need to prove 1 = «{c}» * a. We can use the same approach as before, but we will need to apply symmetry at the end."
+msgstr ""
+
+#: Game.Levels.LogicWorld.LV01
+msgid "First introduce a proof of `P ∧ Q` and use it to construct a proof of `Q ∧ P`. Then do the same for the implication `Q ∧ P → P ∧ Q`."
+msgstr ""
+
+#: Game.Levels.LogicWorld.LV01
+msgid "Symmetry of conjunction"
 msgstr ""
 
 #: Game.Levels.PrimeImpliesIrreducible.LV06_FinalBoss

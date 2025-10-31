@@ -1,4 +1,5 @@
 import Game.Levels.PrimeImpliesIrreducible
+import Game.Levels.LogicWorld
 
 -- Here's what we'll put on the title screen
 Title "Heidelberg Lean Game"
