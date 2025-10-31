@@ -64,6 +64,10 @@ msgstr ""
 msgid "Write 'have p_div_a_or_b : p ∣ a ∨ p ∣ b := ..."
 msgstr ""
 
+#: Game.Levels.LogicWorld.LV02
+msgid "At this point, the second case should be entirely analogous to the first one."
+msgstr ""
+
 #: Game.Levels.PrimeImpliesIrreducible.LV02_EqImplDiv
 msgid "Rewrite using 'rewrite [Nat.mul_one «{p}»]' to convert p * 1 to p."
 msgstr ""
@@ -112,6 +116,10 @@ msgstr ""
 #: Game.Levels.PrimeImpliesIrreducible.LV03_Substitution
 msgid "In this level, we prove a useful substitution property for natural numbers.\n"
 "If u = p * q and p = u * v, then we can rewrite p as p * (q * v)."
+msgstr ""
+
+#: Game.Levels.LogicWorld.LV02
+msgid "To prove the implication `P ∧ (Q ∨ R) → P ∧ Q ∨ P ∧ R`, start by introducing a proof of `P ∧ (Q ∨ R)`. Since the goal is a conjunction, it will suffice to prove either the left-hand side or the right-hand side."
 msgstr ""
 
 #: Game.Levels.PrimeImpliesIrreducible.LV03_Substitution
@@ -185,6 +193,12 @@ msgstr ""
 
 #: Game.Levels.LogicWorld
 msgid "Logic World"
+msgstr ""
+
+#: Game.Levels.LogicWorld.LV02
+msgid "Prove that `∧` distributes over `∨`, in the sense that `P ∧ (Q ∨ R)` is logically equivalent to `(P ∧ Q) ∨ (P ∧ R)`.\n"
+"\n"
+"To get started, use the constructor tactic to split the equivalence into two implications."
 msgstr ""
 
 #: Game.Levels.PrimeImpliesIrreducible.LV04_BUnit
@@ -337,6 +351,10 @@ msgstr ""
 msgid "Heidelberg Lean Game"
 msgstr ""
 
+#: Game.Levels.LogicWorld.LV02
+msgid "This time, the goal is a conjunction and the term `«{t}»` is a proof of a disjunction. You can therefore use `constructor` to split the goal in two and use `rcases` to perform a case analysis on `«{t}»`."
+msgstr ""
+
 #: Game.Levels.PrimeImpliesIrreducible.LV02_EqImplDiv
 msgid "Use 'dsimp only [Dvd.dvd]' to unfold the definition and expose the existential quantifier."
 msgstr ""
@@ -379,6 +397,10 @@ msgstr ""
 msgid "Rewrite the left-hand side using the identity '← Nat.mul_one p'."
 msgstr ""
 
+#: Game.Levels.LogicWorld.LV02
+msgid "Well done! You have successfully proven that conjunction distributes over disjunction :)"
+msgstr ""
+
 #: Game.Levels.PrimeImpliesIrreducible.LV03_Substitution
 msgid "Finish with 'exact «{p_eq_uv}»' to complete the proof."
 msgstr ""
@@ -395,8 +417,16 @@ msgstr ""
 msgid "Use 'apply Eq.symm' to swap both sides of the equality."
 msgstr ""
 
+#: Game.Levels.LogicWorld.LV02
+msgid "Now let us prove the converse implication, namely `P ∧ Q ∨ P ∧ R → P ∧ (Q ∨ R)`. Start by introducing a proof of `P ∧ Q ∨ P ∧ R`."
+msgstr ""
+
 #: Game.Levels.PrimeImpliesIrreducible.LV04_BUnit
 msgid "Introduce the hypothesis into your context."
+msgstr ""
+
+#: Game.Levels.LogicWorld.LV02
+msgid "Distributivity of conjunction over disjunction"
 msgstr ""
 
 #: Game.Levels.PrimeImpliesIrreducible.LV06_FinalBoss
@@ -491,6 +521,10 @@ msgstr ""
 
 #: Game.Levels.PrimeImpliesIrreducible.LV05_AUnit
 msgid "Apply the cancellation law (from Level 1) to deduce that «{c}» * a = 1."
+msgstr ""
+
+#: Game.Levels.LogicWorld.LV02
+msgid "Using the `rcases` tactic, you may assume that the term `«{t}»` (which is a proof of `P ∧ (Q ∨ R)`) is of the form `⟨p, s⟩`, with `p` a proof of `P` and `s` a proof of `Q ∨ R`."
 msgstr ""
 
 #: Game.Levels.PrimeImpliesIrreducible.LV06_FinalBoss
@@ -618,6 +652,10 @@ msgstr ""
 
 #: Game.Levels.PrimeImpliesIrreducible.LV05_AUnit
 msgid "Use 'intro h' to bring the entire hypothesis into scope."
+msgstr ""
+
+#: Game.Levels.LogicWorld.LV02
+msgid "Using `rcases` again, you may assume that `s` is *either* given by a proof `q` of `Q` or by a proof `r` of `R`."
 msgstr ""
 
 #: Game.Levels.PrimeImpliesIrreducible.LV04_BUnit

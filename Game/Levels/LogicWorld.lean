@@ -1,4 +1,5 @@
 import Game.Levels.LogicWorld.LV01
+import Game.Levels.LogicWorld.LV02
 
 World "LogicWorld"
 Title "Logic World"
