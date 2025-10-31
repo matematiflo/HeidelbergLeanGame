@@ -17,7 +17,7 @@ The official instructions to build such a repo are available at the [lean4game](
   - `lake build`
 
 - Make sure you have also cloned the [lean4game](https://github.com/leanprover-community/lean4game/) repo (in the *same parent folder* as `HeidelbergLeanGame`).
-- Go to the `lean4game` folder and run the following commands:
+- **Go to the `lean4game` folder** and run the following commands:
 
   - `npm install`
   - `npm start`
