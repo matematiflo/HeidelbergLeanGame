@@ -1,7 +1,7 @@
 msgid ""
 msgstr "Project-Id-Version: Game v4.22.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-10-31\n"
+"POT-Creation-Date: 2025-11-01\n"
 "Last-Translator: \n"
 "Language-Team: none\n"
 "Language: en\n"
@@ -107,6 +107,10 @@ msgstr ""
 
 #: Game.Levels.PrimeImpliesIrreducible.LV05_AUnit
 msgid "Start by applying symmetry to reverse the equality."
+msgstr ""
+
+#: Game.Levels.LogicWorld.LV02
+msgid "This theorem, proved in Level 1 of the Logic World, states that, for all `P Q R : Prop`, the proposition `P ∧ (Q ∨ R)` is logically equivalent to `(P ∧ Q) ∨ (P ∧ R)`. This says that conjunction `∧` is distributive over disjunction `∨`."
 msgstr ""
 
 #: GameServer.RpcHandlers

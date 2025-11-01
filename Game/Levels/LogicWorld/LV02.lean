@@ -1,4 +1,3 @@
-import Game.Metadata
 import Game.Inventory
 
 World "LogicWorld"
@@ -11,6 +10,11 @@ Prove that `∧` distributes over `∨`, in the sense that `P ∧ (Q ∨ R)` is 
 
 To get started, use the constructor tactic to split the equivalence into two implications.
 "
+
+/--
+This theorem, proved in Level 1 of the Logic World, states that, for all `P Q R : Prop`, the proposition `P ∧ (Q ∨ R)` is logically equivalent to `(P ∧ Q) ∨ (P ∧ R)`. This says that conjunction `∧` is distributive over disjunction `∨`.
+-/
+TheoremDoc distribAndOr as "Distributivity of conjunction over disjunction" in "Levels"
 
 -- The exercise (or statement) is given below.
 Statement distribAndOr (P Q R : Prop) : P ∧ (Q ∨ R) ↔ (P ∧ Q) ∨ (P ∧ R) :=
